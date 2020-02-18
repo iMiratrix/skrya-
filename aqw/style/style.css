@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.reg, .auth {
+    max-width: 400px;
+    padding: 15px;
+    margin: 0 auto;
+
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #ececec;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #212121;
+    padding: 20px 10px;
+}
+
+.wrap-logo {
+    display: flex;
+    align-items: center;
+
+}
+
+header a {
+    color: #f3faff;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+header a:hover {
+    background-color: #f3faff;
+    color: #212121;
+}
+
+header a.active {
+    background-color: #f3faff;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+/*main*/
+
+main {
+    background: #ececec;
+}
+
+main a {
+    text-decoration: none;
+    color: #212121;
+}
+
+main a:hover {
+    text-decoration: none;
+    background-color: #212121;
+    color: #f3faff;
+    /*border-left: 2px solid #212121;*/
+}
+
+.container img {
+    height: 200px;
+    max-width: 80%;
+
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.product {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #c0c0c0;
+    height: 390px;
+    overflow: hidden;
+    padding: 25px 15px;
+    position: relative;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+    margin-bottom: 20px;
+}
+
+.product:hover {
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+}
+
+/*.product-img {*/
+/*    height: 200px;*/
+/*}*/
+
+.product-title a {
+    color: #000;
+    font-weight: 500;
+    /*text-transform: uppercase;*/
+}
+
+.product-desc {
+    max-height: 60px;
+    overflow: hidden;
+}
+
+.product-price {
+    bottom: 15px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    color: #d51e08;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/*footer*/
+
+footer {
+    color: #ececec;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #212121;
+    padding: 20px 10px;
+}
+
+footer a {
+    color: #f3faff;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
